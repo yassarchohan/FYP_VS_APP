@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "119644081507",
+    "firebase_url": "https://virtual-shopping.firebaseio.com",
+    "project_id": "virtual-shopping",
+    "storage_bucket": "virtual-shopping.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119644081507:android:b92e6b36c252b450",
+        "android_client_info": {
+          "package_name": "com.example.yassarchohan.virtual_shopping_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119644081507-a7hbo0ku01mc7qphucvfuo96g23iosm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLfljjAYGBbR11G9v3x6XG2lzdlLSpT_4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

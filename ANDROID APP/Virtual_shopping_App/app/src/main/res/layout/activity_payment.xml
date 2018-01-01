@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    tools:context="com.example.yassarchohan.virtual_shopping_app.Payment">
+
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+
+        android:text="Click to scan QR Code below"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+   <ImageView
+       android:clickable="true"
+      android:src="@drawable/codesscan"
+       android:layout_gravity="center"
+       android:text="Scan"
+       android:layout_marginTop="10dp"
+       android:id="@+id/Scancode"
+       android:layout_width="60dp"
+       android:layout_height="60dp" />
+
+
+    <TextView
+
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+
+        android:textSize="25sp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textrecipt"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+
+        android:textSize="25sp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/text123"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:background="@android:color/transparent"
+        android:id="@+id/reciptlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+    <Button
+       android:layout_gravity="center"
+        android:text="Submit order"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:id="@+id/buyproduct"
+        android:layout_marginRight="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/forordercancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:text="Cancel order"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

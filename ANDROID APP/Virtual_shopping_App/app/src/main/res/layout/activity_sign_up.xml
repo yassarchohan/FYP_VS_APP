@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/holo_blue_dark"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.yassarchohan.virtual_shopping_app.Sign_up">
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:text="Create New Account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_gravity="center"
+
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+
+            android:id="@+id/forname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:fontFamily="serif"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+        android:textColor="@android:color/white"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/foremail"
+            android:fontFamily="serif"
+            android:hint="Enter Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <EditText
+        android:textColor="@android:color/white"
+        android:inputType="phone"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/forcontacts"
+        android:fontFamily="serif"
+        android:hint="Enter your Mobile No."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <EditText
+        android:textColor="@android:color/white"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/forpass"
+        android:fontFamily="serif"
+        android:hint="Enter password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/black"
+            android:fontFamily="serif"
+
+            android:text="Password must have at least 6 chars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <Button
+
+
+        android:id="@+id/submit"
+        android:fontFamily="serif"
+        android:text="Submit"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
